@@ -1,0 +1,25 @@
+.header-content {
+    animation: fade-slide-down 2s 3s cubic-bezier(0, 0.5, 0, 1) forwards;
+    content: "";
+    opacity: 0;
+    
+}
+
+@keyframes fade-slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .column {
+    flex: 50%;
+  }
+
+  .row {
+    display: flex;
+  }
